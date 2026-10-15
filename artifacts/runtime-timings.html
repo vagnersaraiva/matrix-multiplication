@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Runtime timings</title>
+  <style>
+    html, body {
+      margin: 0;
+      background: #ffffff;
+      font-family: "Segoe UI", "Liberation Sans", sans-serif;
+    }
+    .page {
+      width: 640px;
+      padding: 28px 32px 24px;
+    }
+    .panel {
+      background: #1e1e1e;
+      color: #d4d4d4;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 8px 28px rgba(0, 0, 0, 0.18);
+    }
+    .tabs {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      height: 34px;
+      padding: 0 12px;
+      background: #2d2d2d;
+      color: #bbbbbb;
+      font-size: 13px;
+    }
+    .tabs .active {
+      color: #ffffff;
+      background: #1e1e1e;
+      border-radius: 4px 4px 0 0;
+      padding: 6px 10px 7px;
+      margin-top: 6px;
+    }
+    .body {
+      padding: 16px 22px 22px;
+      font-size: 15px;
+      line-height: 1.35;
+    }
+    .init {
+      color: #e6e6e6;
+      margin-bottom: 18px;
+    }
+    .step {
+      margin: 0 0 16px;
+    }
+    .label {
+      color: #d7a441;
+      font-weight: 600;
+    }
+    .value {
+      color: #f2f2f2;
+      margin-top: 2px;
+    }
+    .caption {
+      margin: 10px 4px 0;
+      color: #6b6b6b;
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <div class="panel">
+      <div class="tabs">
+        <span class="active">Results</span>
+      </div>
+      <div class="body">
+        <div class="init">Init Message: Initialized matrices A &amp; B with size 1000 x 1000</div>
+        <div class="step">
+          <div class="label">Get A &amp; B took</div>
+          <div class="value">4230</div>
+        </div>
+        <div class="step">
+          <div class="label">Multiply took</div>
+          <div class="value">48</div>
+        </div>
+        <div class="step">
+          <div class="label">Validate Result</div>
+          <div class="value">Success</div>
+        </div>
+        <div class="step">
+          <div class="label">Validate took</div>
+          <div class="value">3596</div>
+        </div>
+        <div class="step">
+          <div class="label">Total took</div>
+          <div class="value">7874</div>
+        </div>
+      </div>
+    </div>
+    <p class="caption">Docker run for n = 1000. Values are milliseconds. Validate Result is the API response.</p>
+  </div>
+</body>
+</html>
