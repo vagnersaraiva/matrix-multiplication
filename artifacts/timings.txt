@@ -1,0 +1,16 @@
+Init Message: Initialized matrices A & B with size 1000 x 1000
+
+Get A & B took
+4230
+
+Multiply took
+48
+
+Validate Result
+Success
+
+Validate took
+3596
+
+Total took
+7874
