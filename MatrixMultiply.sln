@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1CB38BE7-F3C2-4AFA-9829-96E8C666FDED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrixMultiply.Core", "src\MatrixMultiply.Core\MatrixMultiply.Core.csproj", "{0803C32A-506F-4821-AE0E-5B714C8319BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrixMultiply.Cli", "src\MatrixMultiply.Cli\MatrixMultiply.Cli.csproj", "{77E42524-571D-4127-9CA5-F06F4AA50569}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{45708538-16C7-458C-B6FE-CCACA90373F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrixMultiply.Tests", "tests\MatrixMultiply.Tests\MatrixMultiply.Tests.csproj", "{787628BB-6F6A-4605-9A4D-B6CB3C03E7EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0803C32A-506F-4821-AE0E-5B714C8319BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0803C32A-506F-4821-AE0E-5B714C8319BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0803C32A-506F-4821-AE0E-5B714C8319BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0803C32A-506F-4821-AE0E-5B714C8319BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77E42524-571D-4127-9CA5-F06F4AA50569}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77E42524-571D-4127-9CA5-F06F4AA50569}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77E42524-571D-4127-9CA5-F06F4AA50569}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77E42524-571D-4127-9CA5-F06F4AA50569}.Release|Any CPU.Build.0 = Release|Any CPU
+		{787628BB-6F6A-4605-9A4D-B6CB3C03E7EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{787628BB-6F6A-4605-9A4D-B6CB3C03E7EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{787628BB-6F6A-4605-9A4D-B6CB3C03E7EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{787628BB-6F6A-4605-9A4D-B6CB3C03E7EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0803C32A-506F-4821-AE0E-5B714C8319BF} = {1CB38BE7-F3C2-4AFA-9829-96E8C666FDED}
+		{77E42524-571D-4127-9CA5-F06F4AA50569} = {1CB38BE7-F3C2-4AFA-9829-96E8C666FDED}
+		{787628BB-6F6A-4605-9A4D-B6CB3C03E7EC} = {45708538-16C7-458C-B6FE-CCACA90373F2}
+	EndGlobalSection
+EndGlobal
